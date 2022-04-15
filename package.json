@@ -1,7 +1,7 @@
 {
   "name": "spining-card",
   "version": "0.1.0",
-  "homepage": "https://samehetman.github.io/react-spinning-card",
+  "homepage": "https://SamehEtman.github.io/react-spinning-card",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
