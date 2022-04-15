@@ -1,0 +1,60 @@
+.pickList {
+  position: relative;
+  color: white;
+  font-weight: 600;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+  }
+  &:not(:last-child) {
+    padding-bottom: 20px;
+  }
+}
+ul {
+  position: relative;
+  padding-left: 25px;
+  list-style-type: none;
+}
+.fromToLine {
+  border-left: 2px solid white;
+  position: absolute;
+  left: -17px;
+  top: 16px;
+  height: 100%;
+}
+.title {
+  font-size: 18px;
+  padding: 4px 0px;
+}
+.pickDropItem {
+  line-height: 20px;
+  font-size: 11px;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: -4px;
+  margin-top: -20px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.tour_name {
+  background-color: rgb(48, 48, 48);
+  padding: 10px 15px;
+   position: absolute;
+  right: 0px;
+  bottom: 13px;
+  color: white;
+  font-size: 20px;
+  clip-path: polygon(0 0, 100% 0, 100% 84%, 0 100%);
+  background-color: #f26b00;
+}
